@@ -1,12 +1,12 @@
-import mysql.connector
+-- import mysql.connector
 
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="alpatson",
-    password="mynameisSiaw@7",
-    database="alx_book_stores"
-)
+-- mydb = mysql.connector.connect(
+--     host="localhost",
+--     user="alpatson",
+--     password="mynameisSiaw@7",
+--     database="alx_book_stores"
+-- )
 
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
